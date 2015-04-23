@@ -1,0 +1,35 @@
+a) Qual a altura da árvore?
+    R: Altura 4.
+
+b) Quantos nodos folhas a árvore possui?
+    R: 5 nodos folhas.
+
+c) A árvore é do tipo AVL? Justifique.
+    R: Não. O nodo E, por exemplo, possui fator de balanceamento -3.
+
+d) Como seriam listadas as chaves nos percursos em pré-ordem, in-ordem e pós-ordem?
+    R: Em ordem:  A - B - D - H - E - I - L - C - F - G - J - H
+       Pré ordem: D - H - B - E - I - L - A - F - C - J - G - H
+       Pós ordem  H - D - L - I - E - B - F - J - H - G - C - A
+
+e) Represente a árvore utilizando parênteses aninhados e Diagrama de Venn.
+    R:
+        Parênteses aninhados: (A(B(D(H),E(I(L))),C(F,G(J,H))))
+
+        Diagrama de Venn:
+
+        ##################################################################################
+        # A                                                                              #
+        #   ##########################################                                   #
+        #   # B                                      #                                   #
+        #   #   ##############   ##################  #   ############################    #
+        #   #   # D          #   # E              #  #   # C                        #    #
+        #   #   #    ######  #   #   ###########  #  #   # #####   ################ #    #
+        #   #   #    # H  #  #   #   # I       #  #  #   # # F #   # G            # #    #
+        #   #   #    ######  #   #   #   ##### #  #  #   # #####   #  ##### ##### # #    #
+        #   #   ##############   #   #   # L # #  #  #   #         #  # J # # H # # #    #
+        #   #                    #   #   ##### #  #  #   #         #  ##### ##### # #    #
+        #   #                    #   ###########  #  #   #         ################ #    #
+        #   #                    ##################  #   #                          #    #
+        #   ##########################################   ############################    #
+        ##################################################################################
