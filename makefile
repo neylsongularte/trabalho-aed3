@@ -10,3 +10,6 @@ ex4: arvore_binaria.c arvore_binaria.h exercicio-4.c
 
 ex5: arvore_binaria.c arvore_binaria.h exercicio-5.c
 	gcc -o ~/ex5 arvore_binaria.c exercicio-5.c
+
+ex6: arvore_binaria.c arvore_binaria.h exercicio-6.c
+	gcc -o ~/ex6 arvore_binaria.c exercicio-6.c
