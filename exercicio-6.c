@@ -40,7 +40,7 @@ int eh_avl(node *arvore)
     alturaDaArvoreEsquerda = altura_da_arvore(arvore->E);
     alturaDaArvoreDireita = altura_da_arvore(arvore->D);
 
-    if(abs(alturaDaArvoreEsquerda - alturaDaArvoreDireita) > 1)
+    if(abs(alturaDaArvoreDireita - alturaDaArvoreEsquerda) > 1)
         return 0;
 
     if(eh_avl(arvore->E) == 0)
